@@ -1,7 +1,7 @@
 
 /**
  * @swagger
- * /v1/signup:
+ * /v1/auth/signup:
  *   post:
  *     tags:
  *       - Authentication
@@ -67,7 +67,7 @@
  *               properties:
  *                 error:
  *                   type: string
- * /v1/signin:
+ * /v1/auth/signin:
  *   post:
  *     tags:
  *       - Authentication
@@ -131,7 +131,7 @@
  *               properties:
  *                 error:
  *                   type: string
- * /v1/me:
+ * /v1/auth/me:
  *   get:
  *     tags:
  *       - Authentication
@@ -187,7 +187,7 @@
 
 /**
  * @swagger
- * /v1/roles:
+ * /v1/role:
  *   post: 
  *     tags:
  *       - Roles
